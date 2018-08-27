@@ -1,0 +1,9 @@
+extends layout/layout.pug
+block title
+  | Index page
+
+block content
+  p #{data.name}'s Pug source code!
+  h1 First try of PUG without Webpack!
+  each person in data.persons
+    p= person

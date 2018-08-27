@@ -1,0 +1,27 @@
+1) Iteration
+each person in data.persons
+    li= person
+
+2) Interpolation
+p #{data.name}'s Pug source code!
+
+3) Mixin declaration
+mixin list
+  ul
+    li foo
+    li bar
+    li baz
+    
+4) Mixin use
++list
++list
+
+5) Mixin (func) declaration
+mixin pet(name)
+  li.pet= name
+
+6) Mixin (func) use
+ul
+  +pet('cat')
+  +pet('dog')
+  +pet('pig')

@@ -5,11 +5,13 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node_modules/.bin/node-sass src/scss/style.scss dist/css/style.css --watch --output-style=expanded"
+    "scss": "node_modules/.bin/node-sass src/scss/style.scss dist/css/style.css --watch --output-style=expanded",
+    "pug": "pug src/index.pug --out dist --pretty --watch -O src/options.json"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "node-sass": "^4.9.3"
+    "node-sass": "^4.9.3",
+    "pug": "^2.0.3"
   }
 }
