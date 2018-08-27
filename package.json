@@ -1,0 +1,15 @@
+{
+  "name": "colingz",
+  "version": "1.0.0",
+  "description": "Portfolio layout",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node_modules/.bin/node-sass src/scss/style.scss dist/css/style.css --watch --output-style=expanded"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.9.3"
+  }
+}
